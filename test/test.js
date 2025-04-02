@@ -1,6 +1,7 @@
 // Lorna Naula & Ssekajja Wavamuno Isaac
 import { describe, it } from "mocha";
 import { assert } from "chai";
+import fibonacci from "../fibonacci.js";
 
 describe("Fibonacci Function", () => {
   it("Should return 0 for fibonacci(0)", () => {
